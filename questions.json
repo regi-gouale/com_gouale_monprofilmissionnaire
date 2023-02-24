@@ -1,0 +1,82 @@
+{
+    "answers": [
+        {
+            "id": 1,
+            "type": "radio",
+            "value": "Tout à fait"
+        },
+        {
+            "id": 2,
+            "type": "radio",
+            "value": "Assez bien"
+        },
+        {
+            "id": 3,
+            "type": "radio",
+            "value": "Un peu"
+        },
+        {
+            "id": 4,
+            "type": "radio",
+            "value": "Pas du tout"
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "J'aime évangéliser les personnes blessées ou éloignées de Dieu pour leur annoncer Son amour et Sa compassion pour chacun.",
+            "profile": "Samaritaine"
+        },{
+            "id": 2,
+            "question": "Lorsque j'évangélise, j'aime rapporter comment Dieu a totalement changé mon histoire, pour montrer que la transformation commence par une rencontre d'amour avec Dieu.",
+            "type": "radio",
+            "profile": "Paul"
+        },
+        {
+            "id": 3,
+            "question": "Je veille à ce que les non-croyants et les personnes extérieures à la communauté chrétienne soient très bien accueillies.",
+            "profile": "Samaritaine"
+        },
+        {
+            "id": 4,
+            "question": "Pour évangéliser quelqu'un, je cherche d'abord à comprendre les raisons de ses doutes, de son indifférence ou de son refus de croire.",
+            "profile": "Barnabas"
+        },
+        {
+            "id": 5,
+            "question": "En évangélisation, j'utilise des formules, des images et des exemples qui percutent. ",
+            "profile": "Barnabas"
+        },
+        {
+            "id": 6,
+            "question": "Lorsque j'évangélise, je parle d'abord de l'immense amour de Dieu pour chacun.",
+            "profile": "Jean"
+        },
+        {
+            "id": 7,
+            "question": "J'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.",
+            "profile": "Jean"
+        },
+        {
+            "id": 8,
+            "question": "Je ne crains pas de témoigner de mes faiblesses que Jésus vient porter, guérir, transformer ou sauver.",
+            "profile": "Paul"
+        },
+        {
+            "id": 9,
+            "question": "J'évangélise avant tout les personnes de mon entourage : collègues, amis, voisins ou famille.",
+            "profile": "Philippe et Nathanaël"
+        },
+        {
+            "id": 10,
+            "question": "Aider les personnes que je côtoie est ma façon de leur témoigner du Christ.",
+            "profile": "Paul"
+        },
+        
+        {
+            "id": 11,
+            "question": "J'annonce le Christ sans trop tourner longtemps autour du pot.",
+            "profile": "Jean Baptiste"
+        }
+    ]
+}
