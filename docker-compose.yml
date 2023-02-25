@@ -1,10 +1,10 @@
 version: '3.3'
 
 services:
-  web:
+  profil-missionnaire:
     image: nginx:latest
     volumes:
-      - nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/nginx.conf
       - .:/usr/share/nginx/html
     labels:
       - "traefik.enable=true"
