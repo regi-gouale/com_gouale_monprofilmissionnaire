@@ -2,6 +2,7 @@
 
 var questions;
 var answers;
+var sumOfUserAnswers = 0;
 
 window.onload = function () {
     let b = document.body;
@@ -41,7 +42,7 @@ window.onload = function () {
                     a.setAttribute('type', answer.type);
                     a.setAttribute('name', 'q' + question.id);
                     a.setAttribute('value', answer.value);
-                    a.setAttribute('required', 'required');
+                    // a.setAttribute('required', 'required');
                     a.setAttribute('id', 'q' + question.id + 'a' + answer.value);
 
                     newQuestionSection.appendChild(a);
@@ -80,12 +81,12 @@ window.onload = function () {
     form.insertBefore(mainSection, form.lastChild);
 
     b.appendChild(form);
-
 }
 
 // Path: result.js
 function setAction(form) {
     form.action = 'result.html';
+    console.log(answers);
 
     profiles = {
         "Samaritaine": 0,
@@ -104,9 +105,17 @@ function setAction(form) {
         let id = parseInt(pair[0].split('q')[1]);
         if (pair[1] == answers[0].value || pair[1] == answers[1].value) {
             profiles[questions[id-1].profile] += 1;
+            sumOfUserAnswers += 1;
         }
         
     }
-    alert(JSON.stringify(profiles));
+
+    // alert(JSON.stringify(profiles));
+    const sortedObject = Object.fromEntries(
+        Object.entries(profiles).sort(([, a], [, b]) => b - a)
+    );
+    alert(JSON.stringify(sortedObject));
+    alert(sumOfUserAnswers);
+    
     return true;
 }

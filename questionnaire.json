@@ -1,0 +1,125 @@
+{
+    "reponses": {
+        "type": "radio",
+        "reponses": [
+            {
+                "texte": "Tout à fait",
+                "id": 1
+            },
+            {
+                "texte": "Assez bien",
+                "id": 2
+            },
+            {
+                "texte": "Un peu",
+                "id": 3
+            },
+            {
+                "texte": "Pas du tout",
+                "id": 4
+            }
+        ]
+    },
+    "questions": [
+        {
+            "question": "J'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Lorsque je participe à une évangélisation, il n'est pas rare que je sois témoin de \"signes et prodiges\" de Dieu dans la vie de ceux qui sont présents",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Lorsque je me retrouve \"seul contre tous\", je me sens particulièrement stimulé dans l'évangélisation.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Quand j’évangélise, je suis saisi, voire enflammé, je m'exprime avec enthousiasme.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Dans l'évangélisation, je prends du temps avec les personnes pour les écouter, échanger, relire, discuter, accompagner, etc.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J’aime accueillir ceux qui viennent et participer aux temps fraternels avec eux. ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Je me sers des difficultés rencontrées par les gens pour leur présenter Jésus",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J'annonce le Christ sans trop tourner longtemps autour du pot.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J'annonce en priorité le pardon et la miséricorde de Dieu parce que j'en ai été moi-même bouleversé et transformé. ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J’aime avoir une vision dynamique des choses.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Je suis sensible à l’urgence des choses. Nous n’avons pas le temps à perdre. Il faut y aller !",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Je n'hésite pas à annoncer la Vérité dérangeante du Christ au risque d'être incompris.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J'évangélise également pour confondre le monde, dénoncer sa tromperie et déjouer ses mensonges et ses mirages. ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Lors de l’évangélisation, je suis prêt à aborder des questions délicates et en débattre si nécessaire.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J'évangélise avant tout en annonçant le Salut du Christ : Jésus nous sauve et nous libère. ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "J’annonce la parole dans le but de conduire les gens à la repentance ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Avant d’évangéliser, j’aime persister dans la prière pour que les personnes soient gagnées à Christ.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "La multiplication des âmes est la première action que je privilégie",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Lorsque j'arrive sur un champ missionnaire, je veux que les âmes comprennent qu'elles sont mon focus premier.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Après m'avoir écouté, certains me disent être frappés par ce qu'ils ont entendu, comme stupéfaits. ",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Je reste constamment en quête de stratégies d’évangélisation.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Sur le champ missionnaire, je préfère aller évangéliser qu’animer des ateliers de formation",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Pour moi, le terme conquête signifie le rassemblement de tous les assoiffés de Christ.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Les temps de prière sont généralement orientés sur la réconciliation des âmes avec le Seigneur.",
+            "profile": "gagneur-ames"
+        },
+        {
+            "question": "Dans le cadre de la mission, je préfère d’abord gagner les âmes.",
+            "profile": "gagneur-ames"
+        }
+    ]
+}
