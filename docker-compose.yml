@@ -2,10 +2,10 @@ version: '3.3'
 
 services:
   profil-missionnaire:
-    image: nginx:latest
+    image: httpd:latest
+    container_name: profil-missionnaire
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
-      - .:/usr/share/nginx/html
+      - .:/usr/local/apache2/htdocs/
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.missionnaire.rule=Host(`profil-missionnaire.gouale.com`)"
