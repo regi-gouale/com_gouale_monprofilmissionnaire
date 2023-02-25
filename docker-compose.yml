@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - .:/usr/share/nginx/html
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.missionnaire.rule=Host(`profil-missionnaire.gouale.com`)"
+      - "traefik.http.routers.missionnaire.entrypoints=websecure"
+    restart: always
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
