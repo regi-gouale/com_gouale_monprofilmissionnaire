@@ -73,7 +73,7 @@ window.onload = function () {
     submit.setAttribute('type', 'submit');
     submit.setAttribute('value', 'Soumettre');
     submit.setAttribute('id', 'submit');
-    submit.setAttribute('action', 'result.html');
+    submit.setAttribute('action', 'results.html');
 
     footer.appendChild(submit);
 
@@ -85,7 +85,7 @@ window.onload = function () {
 
 // Path: result.js
 function setAction(form) {
-    form.action = 'result.html';
+    form.action = 'results.html';
     console.log(answers);
 
     profiles = {
