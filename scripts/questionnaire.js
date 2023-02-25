@@ -23,7 +23,7 @@ window.onload = function () {
     let mainSection = document.createElement('main');
     mainSection.setAttribute('id', 'mainSection');
 
-    fetch('./questionnaire.json')
+    fetch('./data/questionnaire.json')
         .then(response => response.json())
         .then(data => {
             responsesType = data.reponses.type;
@@ -136,16 +136,16 @@ function submitForm(form) {
         }
     }
 
-    alert(JSON.stringify(profiles));
+    // alert(JSON.stringify(profiles));
     
     let selectedType = profiles.types.sedentaire.selected > profiles.types.itinerant.selected ? "sedentaire" : "itinerant";
     let selectedProfile = Object.keys(profiles.profils).reduce((a, b) => profiles.profils[a].selected > profiles.profils[b].selected ? a : b);
 
-    alert(selectedType);
-    alert(selectedProfile);
+    // alert(selectedType);
+    // alert(selectedProfile);
 
     // callResultPage(selectedType, selectedProfile);
-    form.action = 'results.html?type=' + selectedType + '&profile=' + selectedProfile;
+    form.action = './pages/results.html?type=' + selectedType + '&profile=' + selectedProfile;
 }
 
 function callResultPage(type, profile) {
