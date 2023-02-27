@@ -23,12 +23,15 @@ window.onload = function () {
     let mainSection = document.createElement('main');
     mainSection.setAttribute('id', 'mainSection');
 
-    fetch('./data/questionnaire.json')
+    fetch('./json/questionnaire.json')
         .then(response => response.json())
         .then(data => {
             responsesType = data.reponses.type;
             responses = data.reponses.reponses;
             questions = data.questions;
+            
+            const survey = new Survey.Model(questions);
+            console.log(survey);
             shuffle(questions);
 
             let id = 1;
@@ -145,7 +148,7 @@ function submitForm(form) {
     // alert(selectedProfile);
 
     // callResultPage(selectedType, selectedProfile);
-    form.action = './pages/results.html?type=' + selectedType + '&profile=' + selectedProfile;
+    form.action = './html/results.html?type=' + selectedType + '&profile=' + selectedProfile;
 }
 
 function callResultPage(type, profile) {

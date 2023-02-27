@@ -9,7 +9,7 @@ window.onload = function () {
     let b = document.body;
     let br = document.createElement('br');
 
-    fetch('../data/results.json')
+    fetch('../json/results.json')
         .then(response => response.json())
         .then(data => {
             resultProfile = data[profile];

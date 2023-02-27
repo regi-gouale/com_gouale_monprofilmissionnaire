@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/questionnaire.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/survey-jquery/defaultV2.min.css" type="text/css" rel="stylesheet">
+
+    <script src="https://unpkg.com/survey-creator-core/survey-creator-core.i18n.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-jquery/survey.jquery.min.js"></script>
+    <script type="module" src="index.js"></script>
 
     <title>Identification des profils missionnaires</title>
 </head>
 
 <body>
-    
+    <div data-role="appbar" data-expand-point="md">
+        <a href="#" class="brand no-hover">
+            <span class="p-2 border bd-dark border-radius">
+                Impact Centre Chrétiens
+            </span>
+        </a>
+    </div>
+    <div id="surveyContainer"></div>
 </body>
 
 </html>

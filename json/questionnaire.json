@@ -11,12 +11,16 @@
                 "id": 2
             },
             {
-                "texte": "Un peu",
+                "texte": "Je ne sais pas",
                 "id": 3
             },
             {
-                "texte": "Pas du tout",
+                "texte": "Un peu",
                 "id": 4
+            },
+            {
+                "texte": "Pas du tout",
+                "id": 5
             }
         ]
     },
