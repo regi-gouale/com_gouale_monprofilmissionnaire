@@ -9,13 +9,21 @@ export const quizzType = 'radiogroup';
 
 export const questionsJson = {
     title: 'Profil Missionnaire',
-    showProgressBar: 'bottom',
-    showTimerPanel: 'top',
+    showProgressBar: 'top',
+    showTimerPanel: 'bottom',
+    
     maxTimeToFinishPage: 15,
     maxTimeToFinish: 1800,
     showTimerPanelMode: 'all',
+
     firstPageIsStarted: true,
     startSurveyText: 'Découvrez votre profil missionnaire',
+
+    logo: 'favicon.ico',
+    logoPosition: 'left',
+    logoWidth: 50,
+    logoHeight: 50,
+
     pages: [
         {
             elements: [{
@@ -24,12 +32,12 @@ export const questionsJson = {
             }, {
                 type: 'text',
                 name: 'username',
-                title: 'Vos noms et prénoms',
+                title: { fr: 'Vos noms et prénoms' },
                 isRequired: true,
             }, {
                 type: 'text',
                 name: 'email',
-                title: 'Votre adresse email',
+                title: { fr: 'Votre adresse email' },
                 isRequired: true,
             }],
         },
@@ -37,7 +45,7 @@ export const questionsJson = {
             elements: [{
                 type: quizzType,
                 name: 'q1',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
+                title: { fr: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.' },
                 isRequired: true,
                 choices: choices,
                 profil: 'gagneur-ames'
@@ -47,72 +55,14 @@ export const questionsJson = {
             elements: [{
                 type: quizzType,
                 name: 'q2',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
+                title: { fr: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.' },
                 isRequired: true,
                 choices: choices,
                 profil: 'gagneur-ames'
             }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q3',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q4',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q5',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q6',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q7',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-        {
-            elements: [{
-                type: quizzType,
-                name: 'q8',
-                title: 'J\'évangélise en me laissant guider par le Saint-Esprit au travers des rencontres ou des événements.',
-                isRequired: true,
-                choices: choices,
-                profil: 'gagneur-ames'
-            }],
-        },
-    ]
+        }
+    ],
+    showCompletedPage: true,
+    completedHtml: { fr: 'Merci pour votre participation. <br/> <br/> <a href="https://www.facebook.com/missionnaire.chretien" target="_blank">Suivez-nous sur Facebook</a>' },
 }
 
