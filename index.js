@@ -1,5 +1,3 @@
-// import db from './firebaseConf.js';
-
 const survey = new Survey.Model(surveyJson);
 
 survey.locale = "fr";
@@ -14,7 +12,6 @@ function showProfilePageAndSaveResults(sender) {
     const profile = determineProfile(sender.data);
     showProfilePage(profile);
     saveProfileResults(sender.data, profile);
-    // alert(JSON.stringify(profile));
 };
 
 function determineProfile(data) {
@@ -79,13 +76,13 @@ function saveProfileResults(data, profileAndType) {
             email: data.email,
         });
         console.log("Document written with ID: ", docRef.id);
-    }catch (e) {
+    } catch (e) {
         console.error("Error adding document: ", e);
     }
 }
 
 function uuidv4() {
-    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
-      (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
+        (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
     );
-  }
+}
