@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  profil-missionnaire:
+    image: httpd:latest
+    container_name: profil-missionnaire
+    volumes:
+      - .:/usr/local/apache2/htdocs/
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.missionnaire.rule=Host(`profil-missionnaire.gouale.com`)"
+      - "traefik.http.routers.missionnaire.entrypoints=websecure"
+    restart: always
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
+    
