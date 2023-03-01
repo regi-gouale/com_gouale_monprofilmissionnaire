@@ -8,7 +8,7 @@ services:
       - .:/usr/local/apache2/htdocs/
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.missionnaire.rule=Host(`profil-missionnaire.gouale.com`)"
+      - "traefik.http.routers.missionnaire.rule=Host(`profil-missionnaire.egliseiccaura.com`)"
       - "traefik.http.routers.missionnaire.entrypoints=websecure"
     restart: always
     networks:
@@ -17,4 +17,3 @@ services:
 networks:
   web:
     external: true
-    
