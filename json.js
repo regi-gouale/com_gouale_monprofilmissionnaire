@@ -140,7 +140,7 @@ let profileTypes = {
 const firstPage = {
     elements: [{
         type: 'html',
-        html: 'Veuillez répondre aux questions suivantes en vous basant sur votre expérience personnelle. <br/> <br/> <b>Attention:</b> Vous aurez 15 secondes pour répondre à chaque question.'
+        html: `Veuillez répondre aux questions suivantes en vous basant sur votre expérience personnelle. <br/> <br/> <b>Attention:</b> Vous aurez 15 secondes pour répondre à chaque question.`,
     }, {
         type: 'text',
         name: 'username',

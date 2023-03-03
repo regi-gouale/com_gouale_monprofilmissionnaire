@@ -69,7 +69,8 @@ function saveProfileResults(data, profileAndType) {
 
     try {
         const docRef = addDoc(collection(db, "profiles"), {
-            id: uuid,
+            // id: uuid,
+            submissionDate: new Date(),
             profile: profile,
             profileType: profileType,
             username: data.username,
