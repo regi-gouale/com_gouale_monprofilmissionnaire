@@ -51,10 +51,10 @@ function showProfilePage(profileAndType) {
         dataType: 'html',
         success: function (data) {
             $('#surveyContainer').html('');
-            $('#profileTitle').html("<h1>Profil Missionnaire : " + profiles[profile]['name'].toUpperCase() + " - Type " + profileType.toUpperCase() + "</h1>");
-            $('#profileDescription').html("<p>" + profiles[profile]['description'] + "</p>");
-            $('#profileStrength').html("<h2>Traits majeurs de son caractère</h2><ul><li>" + profiles[profile]['strength'].join('</li><li>') + "</li></ul>");
-            $('#profileWeakness').html("<h2>Défis majeurs</h2><ul><li>" + profiles[profile]['weakness'].join('</li><li>') + "</li></ul>");
+            $('#profileTitle').html("<h3 class=\"profile-title\">Profil Missionnaire : " + profiles[profile]['name'].toUpperCase() + " - Type " + profileType.toUpperCase() + "</h3><hr/>");
+            $('#profileDescription').html("<p class=\"profile-description\">" + profiles[profile]['description'] + "</p>");
+            $('#profileStrength').html("<h4 class=\"profile-strengths\">Traits majeurs de son caractère</h4><ul><li>" + profiles[profile]['strength'].join('</li><li>') + "</li></ul>");
+            $('#profileWeakness').html("<h4 class=\"profile-strengths\">Défis majeurs</h4><ul><li>" + profiles[profile]['weakness'].join('</li><li>') + "</li></ul>");
         }
     });
 }
