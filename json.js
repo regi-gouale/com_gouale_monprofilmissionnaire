@@ -13,114 +13,102 @@ let profiles = {
         points: 0,
         nbQuestions: 30,
         name: "Transformateur des âmes",
-        description: "Le profil « missionnaire de la transformation des âmes » ne se borne pas à la conversion. Il œuvre à la construction des âmes. Il privilégie la relation d’aide, la consécration. Il veille à enseigner, à contribuer par l’assistance du Saint Esprit à la restauration des âmes. Pour lui, le chrétien doit être ferme et grandit dans la foi afin d’être un véritable témoin. Son focus premier c’est la stabilité, la construction des âmes. Son focus secondaire c’est la conquête.",
+        description: `Il œuvre à la construction des âmes. Il privilégie la relation d’aide, la consécration. Il veille à enseigner, à contribuer par l’assistance du Saint Esprit à la restauration des âmes. Pour lui, le chrétien doit être ferme et grandit dans la foi afin d’être un véritable témoin. Son focus premier c’est la stabilité, la construction des âmes. Son focus secondaire c’est la conquête.`,
         strength: [
-            "Disciple par excellence, il fait preuve d’une grande fidélité enfant bien aimé et fidèle dans le Seigneur, véritable enfant dans la foi",
-            "Capacité à reproduire, à comprendre et à traduire les préoccupations de son mentor",
-            "Capacité à enseigner, cherche à connaître de la Parole",
-            "Intercesseur fervent en faveur des âmes",
-            "Persévérant, faire preuve de patience dans la gestion des âmes",
-            "Faire preuve d’habileté et de savoir-faire dans la gestion des âmes",
-            "Personnalité énergique et ferme dans ses convictions"
+            `Disciple par excellence, il fait preuve d’une grande fidélité`,
+            `Il est capable de se reproduire, de comprendre et de traduire les préoccupations de son mentor`,
+            `C’est un enseignant. Il aime la formation. Pour cela, il cherche à connaître la Parole`,
+            `C’est un intercesseur fervent en faveur des âmes`,
+            `Persévérant, il démontre une grande patience dans la gestion des âmes`,
+            `Il fait preuve d’habileté et de savoir-faire dans la gestion des âmes`,
+            `Il est ferme dans ses convictions`,
         ],
         weakness: [
-            "A un défi lié à la timidité, il préfère rester dans l’ombre et peut avoir l’air effacé dans un groupe",
-            "La croissance numéraire n’est pas sa préoccupation",
-            "Il peut parfois donner l'impression d'être centré sur « les âmes », plutôt que sur la mission d’expansion. ",
-            "Le missionnaire « transformation des âmes » est préoccupé par la croissance des âmes, il peut volontairement ou involontairement décider de ne pas communiquer aux bonnes personnes les défis des âmes qui lui sont confiées."
+            `Il doit occuper sa place au sein d’un groupe (vaincre la timidité, rester dans son coin) afin de partager ses idées, ses observations, apporter sa contribution à la construction de l’œuvre`,
+            `Il doit comprendre que l’expansion va de pair avec la construction des âmes. Pour cela, il peut travailler sa stratégie sur la base d’objectifs SMART pour constamment évaluer la croissance qualitative et quantitative de l’église (la croissance numéraire n’est pas sa préoccupation + l’expansion viendra après)`,
+            `Préoccupé par la croissance des âmes, il doit davantage apprendre à communiquer et à partager ses bonnes pratiques`,
         ]
     },
     manifestateurCompassion: {
         points: 0,
         nbQuestions: 25,
         name: "Manifestation de la compassion",
-        description: "Le profil « missionnaire de la compassion » est celui qui manifeste la générosité. Pour lui la conquête passe par les actes de compassion. Il est orienté vers la résolution des besoins primaires des âmes. Sa stratégie de conquête repose sur la démonstration de l’amour par des actes de générosité. Ce profil considère l’église comme un lieu de refuge.",
+        description: `Il manifeste la générosité. Pour lui la conquête passe par les actes de compassion. Il est orienté vers la résolution des besoins primaires des âmes. Sa stratégie de conquête repose sur la démonstration de l’amour par des actes de générosité. Ce profil considère l’église comme un lieu de refuge.`,
         strength: [
-            "Le premier à croire en la puissance de la résurrection, son message est fondé sur l’amour et la puissance de la croix",
-            "Caractère mêlé de douceur, d’humilité, de paix, d’amour, de bonté",
-            "N’est pas dans le jugement (il connaissait le passé de Paul, mais n’a pas hésité à obéir à l’instruction divine), fervent partisan de la miséricorde",
-            "Manifeste l’hospitalité. Il est même capable ouvrir sa maison aux réunions de l’église et la prière",
-            "Elle considère sa maison, l’église comme lieu d’asile, de refuge",
-            "Témoigne de ce que le Seigneur a fait pour elle",
-            "Elle soutient la mission avec ses biens",
-            "Il est ouvert à toutes les missions caritatives",
-            "Il est disponible à rendre service dans le back office des activités d'évangélisation",
-            "Il s’engage dans les missions d'écoute, de consolation, d'accompagnement."
+            `Son message est fondé sur l’amour et la puissance de la croix`,
+            `Son caractère est mêlé de douceur, d’humilité, de paix, d’amour, de bonté`,
+            `N’est pas dans le jugement, fervent partisan de la miséricorde`,
+            `Manifeste l’hospitalité. Il est même capable ouvrir sa maison aux réunions de l’église et la prière car il considère sa maison, l’église comme un lieu d’asile, de refuge`,
+            `Il témoigne de ce que le Seigneur a fait pour lui`,
+            `Il soutient la mission avec ses biens er reste disponible à toutes les missions caritatives`,
+            `Il est disponible à rendre service dans le « back office » des activités d'évangélisation`,
+            `Il s’engage dans les missions d'écoute, de consolation, d'accompagnement`,
         ],
         weakness: [
-            "Peut avoir du mal à s’imposer, se faire respecter ",
-            "S’attache émotionnellement aux âmes",
-            "Ne pas s'enfermer dans cet unique style et s'efforcer de regarder autre chose (Marthe)",
-            "Servir avec les mains de Marthe et le cœur de Marie (équilibre dans le service)"
+            `Il est important de travailler sa communication, sa posture, pour asseoir son « autorité » et se faire respecter`,
+            `Ce type de profil doit garder un focus sur la mission et éviter de trop s’attacher émotionnellement aux âmes`,
+            `Il peut perfectionner son style en s’inspirant d’autre style. Ainsi, il ne risque pas s'enfermer dans son style traditionnel`,
+            `Trouver l’équilibre dans le service va lui permettre d’être plus efficace (Servir avec les mains de Marthe et le cœur de Marie)`,
         ]
     },
     coordinateurMission: {
         points: 0,
         nbQuestions: 26,
         name: "Coordinateur de missions",
-        description: "Le profil « missionnaire coordinateur » est un profil capable de mener des stratégies efficaces de prise de territoire. Il organise les missions de terrain dans les moindres détails. Il s’assure de la bonne communication avec les parties prenantes (pasteur – champ missionnaire – équipe de la coordination…). Il surveille l’avancement des objectifs. Il suit le budget. Il documente les processus clés. Il veille à la résolution des problématiques qui empêchent l’équipe de progresser, etc. C’est un artisan dans la gestion efficace de la mission.",
+        description: `C’est un profil capable de mener des stratégies efficaces de prise de territoire. Il organise les missions de terrain dans les moindres détails. Il s’assure de la bonne communication avec les parties prenantes (pasteur – champ missionnaire – équipe de la coordination…). Il surveille l’avancement des objectifs. Il suit le budget. Il documente les processus clés. Il veille à la résolution des problématiques qui empêchent l’équipe de progresser, etc. C’est un artisan habile et efficace dans la gestion de la mission.`,
         strength: [
-            "Par définition, Il est plutôt quelqu’un d’analytique, de rationnel dans sa pensée",
-            "Il a une capacité à exposer les choses sur la base d’une documentation poussée",
-            "Capacité à être précis, méticuleux, organisé",
-            "C’est une personne qui s’attache aux faits « Viens et vois ». Il est peu bavard, discret",
-            "Il fait preuve de grandes qualités pratiques d’organisation et de gestion",
-            "C’est un facilitateur hors pair",
-            "Il a une connaissance poussée du mode d’implantation et de fonctionnement (administratif et financier) des églises",
-            "Il est capable de rédiger, de communiquer des instructions claires et précises",
-            "Personnalité énergique et ferme dans ses convictions",
-            "Il fait preuve d’une capacité décisionnelle, pragmatique et fort utile dans le ministère",
-            "Il est logique, organisé, clair, intellectuel, cohérent, structuré. Il fait preuve de Sagesse divine.",
-            "Il a un esprit curieux. C’est aussi un enquêteur qui recherche les arguments les plus convaincants",
-            "Sa préférence dans l’évangélisation se situe donc davantage au niveau de la pensée que du cœur : ainsi, il se soucie plus de ce que les gens pensent que de ce qu’ils ressentent"
+            `Par définition, Il est plutôt quelqu’un d’analytique, de rationnel dans sa pensée`,
+            `Il fait preuve d’une capacité décisionnelle utile dans le ministère`,
+            `Il a une capacité à exposer les choses sur la base d’une documentation poussée`,
+            `Doté d’une personnalité énergétique, il est précis, méticuleux, organisé, pragmatique, logique, clair, intellectuel, cohérent, structuré. Il fait preuve de Sagesse divine`,
+            `C’est un facilitateur hors pair. Il est peu bavard, discret`,
+            `Il est attaché aux faits et aux procédures`,
+            `Il a une connaissance poussée du mode d’implantation et de fonctionnement (administratif et financier) des églises`,
+            `Il est capable de rédiger, de communiquer des instructions claires et précises`,
+            `Il est curieux. C’est aussi un enquêteur qui recherche les arguments convaincants et factuels`,
+            `Sa préférence dans l’évangélisation se situe davantage au niveau de la pensée que du cœur : il se soucie plus de ce que les gens pensent que de ce qu’ils ressentent`,
         ],
         weakness: [
-            "Il peut facilement s’enfermer dans les procédures afin de ne pas élargir ses perspectives.",
-            "Sa communication peut paraitre trop directive, sans explication des détails",
-            "Il peut basculer vers de l’obstination, à ne pas vouloir céder ni rien lâcher",
-            "Il a tendance à se braquer ou se décourager devant les avis contraires (Il doit comprendre et accepter que le fer aiguise le fer) ",
-            "Il a tendance à être sûr de ses choix et très souvent il ne tient pas compte de l’avis des autres (difficilement). Cela peut lui donner une approche arrogante et favoriser une sorte de condescendance ou de suffisance",
-            "Il peut donner l’impression d’être supérieur aux autres",
-            "S’il met trop d’acharnement, d’insistance, à convaincre, il peut donner l'impression de manquer de respect et de ne pas écouter le cœur des autres. ",
-            "Attention à l’arrogance car le fait d’organiser les choses peut laisser penser que sans lui personne n’y arrivera"
+            `Il doit davantage travailler l’humilité, car le fait d’organiser les choses peut laisser penser que sans lui personne n’y arrivera`,
+            `Il doit veiller à ne pas s’enfermer dans les procédures afin d’élargir ses perspectives`,
+            `Pour être plus efficace, il devra adopter une communication bienveillante (pour ne pas paraître directif) en prenant le soin d’expliquer les choses`,
+            `Il doit faire preuve d’ouverture afin de ne pas se braquer ou se décourager face aux avis contraires. Cette posture lui permettra de ne pas paraître arrogant, obstiné, suffisant, condescendant ou se sentir supérieur. (Il doit comprendre et accepter que le fer aiguise le fer)`,
+            `Il doit développer l’écoute active pour mieux interagir avec son prochain. Car s’il met trop d’acharnement, d’insistance, à convaincre, il peut donner l'impression de manquer de respect et de ne pas écouter le cœur des personnes autour de lui (missionnaires, âmes…)`,
         ]
     },
     gagneurAmes: {
         points: 0,
         nbQuestions: 25,
         name: "Gagneur d'âmes",
-        description: "Le profil « gagneur d’âmes » est un profil de type conquérant. Il est engagé dans la prise de territoire. Il évangélise et cherche à rassembler tous les croyants et les incroyants sous la bannière de Christ. Ce profil n’aime pas la routine. Son focus premier c’est la conquête du territoire, l’expansion et l’implantation des églises. Son focus secondaire c’est la stabilité des âmes.",
+        description: `C’est un conquérant. Il est engagé dans la prise de territoire. 
+        Il évangélise et cherche à rassembler tous les croyants et les incroyants sous la bannière de Christ. 
+        Ce profil n’aime pas la routine. 
+        Son focus premier c’est la conquête du territoire, l’expansion et l’implantation des églises. 
+        Son focus secondaire c’est la stabilité des âmes.`,
         strength: [
-            "Il a tendance à s’affirmer, à être au-devant de la scène par son caractère de fonceur. Ce qui lui donne une forme d’ascendance morale dans le groupe",
-            "C’est un homme d’action et de terrain",
-            "Veut la conversion rapide des âmes",
-            "Accorde un attachement particulier aux rituels, aux symboles, aux pratiques du jeûne, faire preuve d’une rigueur sainte",
-            "Il dit les choses telles qu’il les pense",
-            "Il fait usage d’un langage franc et direct",
-            "Pour lui, annoncer la Parole est le cœur de sa vocation",
-            "Il n’aime pas les tergiversations, peut couper facilement les ponts avec ceux qui ne veulent pas aller de l’avant => Actes 15.39",
-            "Il préfère aller là où personne n’est encore allé",
-            "Obéissant, possède le don de la foi",
-            "C’est un précurseur, un ouvreur de brèche, un véritable visionnaire",
-            "Il peut être excessif par moments et forcer le trait pour faire percevoir l’enjeu des situations",
-            "Il discerne le potentiel des gens et les aide à le développer",
-            "Il est fortement ancré dans la Parole et il voit qu’elle s'accomplit. Souvent, il est touché au plus profond de lui-même et vit dans sa chair ce qu'il annonce, Parfois fragile, sensible, il peut être déstabilisé jusqu’à avoir des scrupules",
-            "Il est alerte comme une sentinelle : il est donc très ouvert à ce qui se passe dans le monde et est toujours à l’affut des nouveautés où il sait discerner ce qui constitue des prémisses des modifications importantes, voire des dangers pour l’homme"
+            `C’est un précurseur, un ouvreur de brèche, un véritable visionnaire. Il préfère aller là où personne n’est encore allé`,
+            `Il peut être excessif par moment et forcer le trait pour faire percevoir l’enjeu des situations`,
+            `Il a tendance à s’affirmer, à être au-devant de la scène du fait de son caractère de fonceur`,
+            `C’est un homme d’action et de terrain. Il dit les choses telle qu’il les pense (langage franc)`,
+            `Il n’aime pas les tergiversations, peut couper facilement les ponts avec ceux qui ne veulent pas aller de l’avant`,
+            `Veut la conversion rapide des âmes`,
+            `Accorde un attachement particulier aux rituels, aux symboles, aux pratiques du jeûne, faire preuve d’une rigueur sainte`,
+            `Pour lui, annoncer la Parole est le cœur de sa vocation`,
+            `Il possède le don de la foi`,
+            `Il discerne le potentiel des gens`,
+            `Il est fortement ancré dans la Parole et il voit qu’elle s'accomplit. Souvent, il est touché au plus profond de lui-même et vit dans sa chair ce qu'il annonce. Parfois fragile, sensible, il peut être déstabilisé jusqu’à avoir des scrupules`,
+            `Il est alerte comme une sentinelle : il est donc très ouvert à ce qui se passe dans le monde. Il est à l’affût des nouveautés. Il sait discerner ce qui constitue les prémisses des modifications importantes, voire des dangers pour l’homme`
         ],
         weakness: [
-            "A un défi lié à la confusion, au doute",
-            "Refuse souvent d’être servi, il préfère servir les autres",
-            "Caractère présomptueux, réagit beaucoup sous l’impulsion des émotions",
-            "Il fait preuve d’un détachement émotionnel face aux situations difficiles",
-            "Apprendre à écouter et comprendre les autres lui sera d’une grande aide car on ne réussit pas seule.  Il doit apprendre à rendre compte avec humilité et respect",
-            "Il doit rester centré sur le message recommandé.",
-            "Avoir une attitude humble, ne pas tomber dans l'arrogance ou la supériorité, Développer l'aspect relationnel pour compenser le volet-enseignant : illustrer par ses propos avec des faits vécus.",
-            "Le missionnaire « gagneur d’âme » est préoccupé par l’urgence de mettre en garde. Il peut s'attacher davantage à dénoncer les choses qu'à annoncer réellement l’Evangile.",
-            "Il peut parfois donner l'impression d'être centré sur « la mission », plutôt que sur les âmes.",
-            "Doit apprendre à déléguer et à s'appuyer sur le discernement de personnes bienveillantes placées autour de lui.",
-            "Doit- être patient dans son rapport avec les autres (Paul et Marc)",
-            "Doit avoir un langage d’encouragement plus que motivationnel",
-            "Doit prendre le temps de laisser les personnes comprendre ce qu’il a compris (Apprendre à ne pas s’étonner de ce que beaucoup ne perçoivent pas ce qu’il voit comme une évidence : il doit donc travailler à être pédagogue et aider son auditoire à comprendre pourquoi il dit ceci ou cela, Garder comme priorité d’attester du Salut, certes après avoir dénoncé le péché si nécessaire)"
+            `Préoccupé par l’urgence de la mise en garde, il doit prendre garde à davantage annoncer réellement l’Evangile qu’à dénoncer les choses. Il doit rester centré sur le message recommandé`,
+            `C’est un gain de temps pour lui d’amener les personnes à comprendre ce qu’il a compris (Apprendre à ne pas s’étonner de ce que beaucoup ne perçoivent pas ce qu’il voit comme une évidence. Il doit donc travailler à être pédagogue et aider son auditoire à comprendre pourquoi il dit ceci ou cela)`,
+            `Apprendre à écouter et comprendre les autres lui sera d’une grande aide car on ne réussit pas seule.  Il doit apprendre à rendre compte « avec humilité et respect »`,
+            `Il doit faire preuve de patience et d’humilité dans ses rapports avec les autres et apprendre à développer un langage encourageant plus que motivationnel pour ne pas paraître arrogeant`,
+            `Il doit apprendre à déléguer et à s'appuyer sur le discernement des personnes bienveillantes placées autour de lui`,
+            `Il peut améliorer le volet-enseignement en illustrant ses propos avec des faits`,
+            `Il peut améliorer sa communication, son relationnel, pour atténuer l'impression qu’il donne d’être plus focalisé sur « la mission » que sur les âmes`,
+            `Il doit accepter d’être servi par moment`,
+            `Il doit travailler la maîtrise de soi et la patience pour mieux gérer ses émotions`,
         ]
     },
 }
@@ -140,7 +128,12 @@ let profileTypes = {
 const firstPage = {
     elements: [{
         type: 'html',
-        html: `Veuillez répondre aux questions suivantes en vous basant sur votre expérience personnelle. <br/> <br/> <b>Attention:</b> Vous aurez 15 secondes pour répondre à chaque question.`,
+        html: `Veuillez répondre aux questions suivantes en vous basant sur votre expérience personnelle. 
+        <br/> <br/> 
+        <b>Attention:</b> Vous aurez 15 secondes pour répondre à chaque question.
+        <br/> <br/>
+        <b>RGPD:</b> Les données collectées ne seront pas utilisées à des fins commerciales.
+        Vous pouvez demander la suppression de vos données à tout moment en envoyant un mail à l'adresse suivante: <a href="mailto:projets.numeriques.icclyon@gmail.com">projets.numeriques.icclyon@gmail.com</a>`,
     }, {
         type: 'text',
         name: 'username',
