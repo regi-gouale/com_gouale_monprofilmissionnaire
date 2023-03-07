@@ -54,7 +54,7 @@ function showProfilePage(profileAndType) {
             $('#profileTitle').html("<h3 class=\"profile-title\">Profil Missionnaire : " + profiles[profile]['name'].toUpperCase() + " - Type " + profileType.toUpperCase() + "</h3><hr/>");
             $('#profileDescription').html("<p class=\"profile-description\">" + profiles[profile]['description'] + "</p>");
             $('#profileStrength').html("<h4 class=\"profile-strengths\">Traits majeurs de son caractère</h4><ul><li>" + profiles[profile]['strength'].join('</li><li>') + "</li></ul>");
-            $('#profileWeakness').html("<h4 class=\"profile-strengths\">Défis majeurs</h4><ul><li>" + profiles[profile]['weakness'].join('</li><li>') + "</li></ul>");
+            $('#profileWeakness').html("<h4 class=\"profile-strengths\">Axes d'amélioration</h4><ul><li>" + profiles[profile]['weakness'].join('</li><li>') + "</li></ul>");
         }
     });
 }
@@ -75,6 +75,7 @@ function saveProfileResults(data, profileAndType) {
             profileType: profileType,
             username: data.username,
             email: data.email,
+            profiles: profiles,
         });
         console.log("Document written with ID: ", docRef.id);
     } catch (e) {

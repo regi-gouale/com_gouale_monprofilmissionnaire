@@ -40,7 +40,7 @@ let profiles = {
             `N’est pas dans le jugement, fervent partisan de la miséricorde`,
             `Manifeste l’hospitalité. Il est même capable ouvrir sa maison aux réunions de l’église et la prière car il considère sa maison, l’église comme un lieu d’asile, de refuge`,
             `Il témoigne de ce que le Seigneur a fait pour lui`,
-            `Il soutient la mission avec ses biens er reste disponible à toutes les missions caritatives`,
+            `Il soutient la mission avec ses biens et reste disponible à toutes les missions caritatives`,
             `Il est disponible à rendre service dans le « back office » des activités d'évangélisation`,
             `Il s’engage dans les missions d'écoute, de consolation, d'accompagnement`,
         ],
