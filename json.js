@@ -79,7 +79,7 @@ let profiles = {
     gagneurAmes: {
         points: 0,
         nbQuestions: 25,
-        name: "Gagneur d'âmes",
+        name: "Éclaireur",
         description: `C’est un conquérant. Il est engagé dans la prise de territoire. 
         Il évangélise et cherche à rassembler tous les croyants et les incroyants sous la bannière de Christ. 
         Ce profil n’aime pas la routine. 
