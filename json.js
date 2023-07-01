@@ -147,6 +147,11 @@ const firstPage = {
         validators: [{
             type: 'email',
         }],
+    }, {
+        type: 'text',
+        name: 'church',
+        title: { fr: 'Votre église' },
+        isRequired: true,
     }],
 };
 

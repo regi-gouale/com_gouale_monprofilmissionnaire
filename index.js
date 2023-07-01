@@ -76,6 +76,7 @@ function saveProfileResults(data, profileAndType) {
             username: data.username,
             email: data.email,
             profiles: profiles,
+            church: data.church,
         });
         console.log("Document written with ID: ", docRef.id);
     } catch (e) {
