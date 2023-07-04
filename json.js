@@ -153,7 +153,7 @@ const firstPage = {
         title: { fr: 'Votre église' },
         isRequired: true,
         showNoneItem: false,
-        showOtherItem: false,
+        showOtherItem: true,
         choices: [
             'Église de Lyon (Principale)',
             'Église de Lyon Part-Dieu',
