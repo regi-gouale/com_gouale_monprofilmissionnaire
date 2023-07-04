@@ -148,10 +148,23 @@ const firstPage = {
             type: 'email',
         }],
     }, {
-        type: 'text',
+        type: 'dropdown',
         name: 'church',
         title: { fr: 'Votre église' },
         isRequired: true,
+        showNoneItem: false,
+        showOtherItem: false,
+        choices: [
+            'Église de Lyon (Principale)',
+            'Église de Lyon Part-Dieu',
+            'Église de Grenoble',
+            'Église de Clermont-Ferrand',
+            'Église de Saint-Etienne',
+            'Église d\'Annecy',
+            'Église d\'Annemasse',
+            'Église de Bourg-en-Bresse',
+            'Église de Chambéry',
+        ],
     }],
 };
 
